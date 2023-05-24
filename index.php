@@ -1,8 +1,10 @@
 <?php
 
+use App\Autoload;
 use App\src\DAO\DAO;
 
-require('src\DAO\DAO.php');
+require_once 'Autoload.php';
+Autoload::register();
 
 /**
  * CE FICHIER A POUR BUT D'AFFICHER LA PAGE D'ACCUEIL !
